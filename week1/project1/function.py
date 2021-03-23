@@ -10,3 +10,6 @@ class Test_PerfectNumber(unittest.TestCase):
         return sum == self
 
     print(perfect_number(8))
+
+if __name__ == '__main__':
+    unittest.main()

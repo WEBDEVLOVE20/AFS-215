@@ -2,7 +2,7 @@ const readlineSync = require("readline-sync");
 
 const num = readlineSync.keyIn("Please enter a number from 1-10.  ")
 
-let fizzbuzzkata = () => {
+let fizzbuzz = () => {
     if (num === "1") {
         console.log("1")
     } else if (num === "2") {
@@ -11,6 +11,6 @@ let fizzbuzzkata = () => {
         console.log("fizzbuzz")
 }};
 
-fizzbuzzkata()
+fizzbuzz()
 
-module.exports = fizzbuzzkata;
+module.exports = fizzbuzz;
